@@ -1,0 +1,60 @@
+.drivers-list {
+    flex: 1;
+    padding: 20px;
+    margin-left: 220px; /* Adjust for fixed menu */
+    overflow-y: auto;
+    height: calc(100vh - 60px); /* Adjust for fixed header */
+    z-index: 998; /* Ensure main content is below menu */
+    position: relative;
+}
+
+.driver-info {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.driver-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+.driver-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.driver-header p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.week-activity {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+    align-items: center;
+}
+
+.day-box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.day-box.active {
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,39 @@
+.menu {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: fixed;
+    top: 60px; /* Adjust for fixed header */
+    bottom: 0;
+    overflow-y: auto;
+    z-index: 999; /* Ensure menu is above other content */
+}
+
+.menu h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: left;
+}
+
+.menu-button:hover {
+    background-color: #61dafb;
+}

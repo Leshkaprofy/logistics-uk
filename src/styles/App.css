@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden; /* Prevent body from scrolling */
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align logo to the left */
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 10px 20px; /* Add padding to ensure the logo is fully visible */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.logo-image {
+    height: 100%; /* Ensure the logo image height fits within the header */
+    display: block;
+    margin: 0;
+}
+
+.App-body {
+    display: flex;
+    flex: 1;
+    margin-top: 60px; /* Adjust for fixed header */
+    overflow: hidden; /* Prevent App-body from scrolling */
+}

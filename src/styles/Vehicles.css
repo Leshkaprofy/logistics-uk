@@ -1,0 +1,23 @@
+.vehicles {
+    flex: 1;
+    padding: 20px;
+    margin-left: 220px; /* Adjust for fixed menu */
+    overflow-y: auto;
+    height: calc(100vh - 60px); /* Adjust for fixed header */
+    z-index: 998; /* Ensure main content is below menu */
+    position: relative;
+}
+
+.vehicles h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.vehicles ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vehicles li {
+  padding: 5px 0;
+}
